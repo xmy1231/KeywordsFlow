@@ -2,7 +2,7 @@
 
 ## Screenshot
  
-![](https://github.com/Jacky-Xu/KeywordsFlow/raw/master/screenshot.jpg)
+![](https://raw.githubusercontent.com/Jacky-Xu/KeywordsFlow/master/screenshot.png)
 
 ### 文字飞入飞去的效果
 
