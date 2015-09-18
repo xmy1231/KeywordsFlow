@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+        android:background="#ffffff">
+    
+    <com.keywordsflow.app.view.KeywordsFlow
+            android:layout_width="fill_parent"
+            android:layout_height="160dip"
+            android:id="@+id/keywordsflow"
+            android:layout_marginTop="10dip"
+            android:background="#fff8f8f8">
+
+    </com.keywordsflow.app.view.KeywordsFlow>
+
+   
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/changeBtn"
+            android:padding="3dp"
+            android:layout_margin="10dp"
+            android:text="换一换"
+            android:background="@drawable/shape_btn"
+            android:layout_below="@+id/keywordsflow"/>
+
+
+</RelativeLayout>
